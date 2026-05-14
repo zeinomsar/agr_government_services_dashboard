@@ -1,0 +1,19 @@
+{
+  "name": "government-services-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "normalize": "node scripts/normalize-excel.js"
+  },
+  "dependencies": {
+    "next": "^15.3.4",
+    "postgres": "^3.4.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {}
+}
